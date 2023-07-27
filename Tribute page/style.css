@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #262322;
+
+  }
+
+  .cotent{
+    margin: 56px;
+    max-width: 70%;
+    box-sizing: 70%;
+    padding: 60px;
+    font-size: 50px;
+
+  }
+  
+  .image{
+    margin-right: 25px;
+    border-radius: 10px;
+    float:right;
+    height: 70vh;
+    display: flex;
+    width: 350px;
+    height: 155px;
+    box-shadow: 0 0 10px rgba(247, 80, 80, 0.797);
+    animation:iron 4s infinite;
+
+
+  }
+  .rdj{
+    margin-right: 25px;
+    border-radius: 10px;
+    float:right;
+    height: 70vh;
+    display: flex;
+    width: 350px;
+    height: 155px;
+    box-shadow: 0 0 10px rgba(61, 170, 248, 0.797);
+    animation:rdj 2s infinite;
+
+
+  }
+ 
+  img{
+    display:center;
+    width: 350px;
+    height: 155px;
+
+  }
+
+  
+  .container {
+    margin-top: 55px;
+    padding: 20px;
+    background-color: #443737;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 250, 250, 0.1);
+    color: #c5bebe;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: rgb(127, 221, 255);
+  }
+  
+  ul {
+    padding-left: 20px;
+    line-height: 1.5;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .love{
+    color: rgb(127, 221, 255);
+    text-align: center;
+    margin-top: 20PX;
+    font-size: 40px;
+    animation: love 2s infinite ;
+  }
+
+  @keyframes iron {
+    
+    0%{
+      opacity:  0;
+    }
+    50%{
+      opacity: 1;
+    }
+    1000%{
+      opacity: 0;
+    }
+  }
+
+  @keyframes rdj {
+    
+    0%{
+      margin-left:-100px;
+    }
+    50%{
+      margin-left: 00px;
+    }
+    100%{
+      margin-right: 100px;
+    }
+  }
+  @keyframes love{
+    
+    0%{
+      font-size: 20px;
+    }
+    50%{
+      font-size: 40px;
+    }
+    100%{
+      font-size: 20px;
+    }
+  }
+  
